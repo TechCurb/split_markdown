@@ -115,4 +115,4 @@ python markdown_splitter.py --help
 
 ## License
 
-[Add your license information here]
+MIT
