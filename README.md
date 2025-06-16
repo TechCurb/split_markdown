@@ -35,8 +35,8 @@ python markdown_splitter.py --input filename.md --tag h2 --output ./split_markdo
 ### Parameters
 
 - `--input` (required): Path to the input markdown file to split
-- `--tag` (optional): Header level to split on (h1, h2, h3, h4, h5, h6). Default: h2
-- `--output` (optional): Directory where split files will be saved. Default: `./split_markdown`
+- `--tag` (optional): Header level to split on (h1, h2, h3, h4, h5, h6). **Default: h2**
+- `--output` (optional): Directory where split files will be saved. **Default: split_markdown**
 
 ### Examples
 
@@ -103,7 +103,7 @@ Creates:
 
 ## Help
 
-For help and available options:
+For help and available options (including current defaults):
 ```bash
 python markdown_splitter.py --help
 ```

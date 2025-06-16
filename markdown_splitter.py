@@ -94,9 +94,9 @@ Examples:
                        help='Input markdown file to split')
     parser.add_argument('--tag', default='h2', 
                        choices=['h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
-                       help='Header level to split on (default: h2)')
+                       help='Header level to split on (default: %(default)s)')
     parser.add_argument('--output', default='split_markdown',
-                       help='Directory to save the split files (default: split_markdown)')
+                       help='Directory to save the split files (default: %(default)s)')
     
     # Parse arguments
     args = parser.parse_args()
